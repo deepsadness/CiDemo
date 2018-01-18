@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CiDemo</string>
+    <string name="title_activity_conceal">ConcealActivity</string>
+</resources>

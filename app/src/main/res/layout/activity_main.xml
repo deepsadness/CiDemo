@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cry.cidemo.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cipher"
+        android:text="加密本地文件" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="encryption"
+        android:text="解密本地文件" />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="download"
+        android:text="下载加密" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="play"
+        android:text="播放加密文件" />
+
+    <Button
+        android:id="@+id/play_original"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="play_original"
+        android:text="播放原始文件" />
+
+    <Button
+        android:id="@+id/to_conceal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="to_conceal"
+        android:text="使用conceal加密" />
+
+</LinearLayout>
